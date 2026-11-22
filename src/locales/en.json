@@ -67,8 +67,7 @@
   "story": {
     "eyebrow": "How it began",
     "title": "Our Story",
-    "photo_placeholder": "A photo of you two",
-    "body": "We met in England — one of us Colombian, the other Swiss, both convinced we were only passing through. What was meant to be a chapter survived long distance, countless airports, and more voice notes than either of us can count. Now we're home together in Neuchâtel, and we can't imagine saying our 'yes' without you there beside us."
+    "image_alt": "Illustrated map of our story: Colombia, London, the Mediterranean, the Swiss Alps."
   },
 
   "stay": {

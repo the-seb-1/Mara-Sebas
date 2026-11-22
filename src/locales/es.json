@@ -67,8 +67,7 @@
   "story": {
     "eyebrow": "Cómo empezó",
     "title": "Nuestra Historia",
-    "photo_placeholder": "Una foto de los dos",
-    "body": "Nos conocimos en Inglaterra — uno colombiano, la otra suiza, los dos convencidos de que solo estábamos de paso. Lo que iba a ser un capítulo sobrevivió a la distancia, a incontables aeropuertos y a más notas de voz de las que podríamos contar. Hoy ya estamos en casa juntos en Neuchâtel y no podríamos imaginar decirnos 'sí' sin ti a nuestro lado."
+    "image_alt": "Mapa ilustrado de nuestra historia: Colombia, Londres, el Mediterráneo, los Alpes suizos."
   },
 
   "stay": {

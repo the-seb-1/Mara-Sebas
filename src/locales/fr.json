@@ -67,8 +67,7 @@
   "story": {
     "eyebrow": "Comment tout a commencé",
     "title": "Notre Histoire",
-    "photo_placeholder": "Une photo de vous deux",
-    "body": "Nous nous sommes rencontrés en Angleterre — l'un colombien, l'autre suisse, tous deux convaincus de ne faire que passer. Ce qui devait être un chapitre a survécu à la distance, à d'innombrables aéroports et à plus de messages vocaux que nous ne pouvons en compter. Aujourd'hui nous sommes chez nous ensemble à Neuchâtel, et nous ne pouvons imaginer nous dire 'oui' sans vous à nos côtés."
+    "image_alt": "Carte illustrée de notre histoire : Colombie, Londres, la Méditerranée, les Alpes suisses."
   },
 
   "stay": {

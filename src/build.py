@@ -110,7 +110,7 @@ T_TOKENS = {
     # story
     "__T_STORY_EYEBROW__": "story.eyebrow",
     "__T_STORY_TITLE__": "story.title",
-    "__T_STORY_PHOTO_PH__": "story.photo_placeholder",
+    "__T_STORY_IMAGE_ALT__": "story.image_alt",
 
     # stay (tier 3)
     "__T_STAY_EYEBROW__": "stay.eyebrow",
