@@ -28,6 +28,7 @@ const SHEET_NAME   = 'RSVPs';
 const COLUMNS = [
   'timestamp',
   'tier',
+  'locale',
   'guest',
   'plusAllowed',
   'name',
@@ -88,9 +89,12 @@ function notify(params) {
   const dietaryLabel = { 'none': 'No restrictions', 'veg': 'Vegetarian', 'vegan': 'Vegan' }[params.dietary] || '(not set)';
   const subject = 'RSVP · ' + (params.name || 'unknown') + ' · ' + attend + ' · ' + tierLabel;
 
+  const localeLabel = { 'en': 'English', 'es': 'Español', 'fr': 'Français' }[params.locale] || (params.locale || '(unknown)');
+
   const lines = [
     'Name: ' + (params.name || ''),
     'Tier: ' + tierLabel,
+    'Language: ' + localeLabel,
     'Guest link personalization: ' + (params.guest || '(none)'),
     'Response: ' + attend,
     '',

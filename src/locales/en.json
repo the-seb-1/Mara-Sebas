@@ -1,0 +1,170 @@
+{
+  "lang": "en",
+  "title": "Mara & Sebastián · 21.08.2027",
+
+  "nav": {
+    "en": "EN",
+    "es": "ES",
+    "fr": "FR"
+  },
+
+  "hero": {
+    "eyebrow": "Together with their families",
+    "getting_married": "We're getting married",
+    "date_day": "21 August",
+    "date_year": "2027",
+    "location": "Neuchâtel · Switzerland",
+    "footer_date": "21 · 08 · 2027 — Neuchâtel"
+  },
+
+  "countdown": {
+    "arrived_title": "The day has arrived.",
+    "arrived_sub": "We can't wait to celebrate with you",
+    "days": "Days",
+    "hrs": "Hrs",
+    "min": "Min",
+    "sec": "Sec"
+  },
+
+  "schedule": {
+    "eyebrow": "The celebration",
+    "title": "Schedule",
+    "sub": "What we have planned for you",
+    "day_one": "Day One",
+    "day_two": "Day Two",
+    "aperitivo_title": "Aperitivo",
+    "aperitivo_note": "Welcome drinks",
+    "ceremony_title": "Ceremony",
+    "ceremony_note": "Under the arch",
+    "dinner_title": "Dinner",
+    "dinner_note": "The long table",
+    "party_title": "Party",
+    "party_note": "Dancing till late",
+    "brunch_title": "Brunch",
+    "brunch_note": "At the hotel · casual"
+  },
+
+  "dress": {
+    "eyebrow": "Attire",
+    "title": "Dress Code",
+    "sub": "Semi-formal",
+    "women": "Women",
+    "women_item": "Cocktail dress",
+    "men": "Men",
+    "men_item": "Suit & tie",
+    "note": "Wear any colour you love — the one gentle request is to leave white for the bride. August in Neuchâtel ran warm last year, so lean breezy and comfortable."
+  },
+
+  "venue": {
+    "eyebrow": "Where",
+    "title": "The Venue",
+    "directions": "Get directions",
+    "name": "Domaine du Lac",
+    "address": "Route du Vignoble 12, 2000 Neuchâtel, Switzerland",
+    "photo_placeholder": "Venue photo"
+  },
+
+  "story": {
+    "eyebrow": "How it began",
+    "title": "Our Story",
+    "photo_placeholder": "A photo of you two",
+    "body": "We met in England — one of us Colombian, the other Swiss, both convinced we were only passing through. What was meant to be a chapter survived long distance, countless airports, and more voice notes than either of us can count. Now we're home together in Neuchâtel, and we can't imagine saying our 'yes' without you there beside us."
+  },
+
+  "stay": {
+    "eyebrow": "We've booked you a room",
+    "title": "Your Stay",
+    "sub": "On us — no booking needed",
+    "check_in_label": "Check-in",
+    "check_out_label": "Check-out",
+    "hotel_name": "Hôtel to be confirmed",
+    "hotel_address": "Neuchâtel, Switzerland",
+    "check_in_val": "Fri 21 Aug · after 15:00",
+    "check_out_val": "Sat 22 Aug · before 12:00",
+    "note": "Breakfast included. The booking is on us — just show your ID at reception."
+  },
+
+  "accommodation": {
+    "eyebrow": "Rest your head",
+    "title": "Accommodation",
+    "sub": "A few places we love nearby",
+    "view_details": "View details",
+    "hotel_placeholder": "Hotel",
+    "hotel1_name": "Hôtel Beau-Rivage",
+    "hotel1_dist": "Lakefront · 5 min from venue",
+    "hotel1_price": "from CHF 210",
+    "hotel2_name": "Auberge du Vignoble",
+    "hotel2_dist": "Vineyard views · 8 min",
+    "hotel2_price": "from CHF 140"
+  },
+
+  "faq": {
+    "eyebrow": "Good to know",
+    "title": "Questions",
+    "q_children": "Can I bring my children?",
+    "a_children": "We adore your little ones, but our celebration is adults-only so everyone can relax and dance freely. Thank you for understanding.",
+    "q_transit": "What is the best way to get there?",
+    "a_transit": "Neuchâtel is well connected by train. From the station it is a short taxi or shuttle ride — we will run shuttles from the main hotels before and after the ceremony.",
+    "q_parking": "Is there parking nearby?",
+    "a_parking": "Yes, free parking is available at the venue. If you plan to enjoy the wine, please leave the car and hop on a shuttle.",
+    "q_diet": "What if I have dietary restrictions?",
+    "a_diet": "Just let us know in your RSVP. Our kitchen happily accommodates vegetarian, vegan, gluten-free and allergy needs.",
+    "q_checkin": "When can I check into the hotel?",
+    "a_checkin": "From 15:00 on the afternoon of the ceremony. You can drop bags earlier at reception if you arrive before then.",
+    "q_brunch_time": "What time is brunch the next day?",
+    "a_brunch_time": "10:00 at the hotel. Come as you are — no dress code, just appetite."
+  },
+
+  "rsvp": {
+    "eyebrow": "Will you join us",
+    "title": "R.S.V.P.",
+    "thank_you_heading": "Thank you",
+    "edit": "Edit my response",
+    "reply_by": "Kindly reply by 30 June 2027",
+    "name": "Full name",
+    "name_ph": "Your name",
+    "attend": "Will you attend?",
+    "attend_yes": "Joyfully accepts",
+    "attend_no": "Regretfully declines",
+    "plus_one": "Bringing a plus-one?",
+    "plus_yes": "Yes, +1",
+    "plus_no": "Just me",
+    "guest_name": "Guest's name",
+    "guest_name_ph": "Their name",
+    "dietary": "Any dietary preference?",
+    "diet_none": "No restrictions",
+    "diet_veg": "Vegetarian",
+    "diet_vegan": "Vegan",
+    "allergies": "Allergies or other notes for the kitchen",
+    "allergies_ph": "e.g. nut allergy, lactose",
+    "brunch_q": "Joining us for brunch the next morning?",
+    "brunch_yes": "Yes, see you at 10",
+    "brunch_no": "Can't make it",
+    "song": "A song to get you dancing",
+    "song_ph": "Song — Artist",
+    "note": "A note for us",
+    "optional": "(optional)",
+    "note_ph": "Leave the happy couple a message…",
+    "error": "Please add your name and let us know if you can make it.",
+    "send": "Send our reply",
+    "thankyou_yes": "We are overjoyed — see you on the dance floor{nameComma}! Your reply is saved.",
+    "thankyou_no": "We will miss you dearly, but thank you for letting us know. Sending love.",
+    "with_love": "With all our love",
+    "floating": "RSVP",
+    "greeting_prefix": "Dear ",
+    "greeting_fallback": "Dear friend",
+    "to_line_fallback": "To our dear guest"
+  },
+
+  "intro": {
+    "play_label": "Play the invitation",
+    "tap_begin": "Tap to begin",
+    "skip": "Skip intro",
+    "video_here": "Your intro video plays here",
+    "drop_mp4": "Drop an .mp4 to preview"
+  },
+
+  "placeholders": {
+    "hero_portrait": "Your portrait"
+  }
+}

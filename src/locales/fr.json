@@ -1,0 +1,170 @@
+{
+  "lang": "fr",
+  "title": "Mara & Sebastián · 21.08.2027",
+
+  "nav": {
+    "en": "EN",
+    "es": "ES",
+    "fr": "FR"
+  },
+
+  "hero": {
+    "eyebrow": "Avec leurs familles",
+    "getting_married": "Nous nous marions",
+    "date_day": "21 août",
+    "date_year": "2027",
+    "location": "Neuchâtel · Suisse",
+    "footer_date": "21 · 08 · 2027 — Neuchâtel"
+  },
+
+  "countdown": {
+    "arrived_title": "Le jour est arrivé.",
+    "arrived_sub": "Il nous tarde de célébrer avec vous",
+    "days": "Jours",
+    "hrs": "Hrs",
+    "min": "Min",
+    "sec": "Sec"
+  },
+
+  "schedule": {
+    "eyebrow": "La célébration",
+    "title": "Programme",
+    "sub": "Ce que nous avons prévu pour vous",
+    "day_one": "Jour Un",
+    "day_two": "Jour Deux",
+    "aperitivo_title": "Apéritif",
+    "aperitivo_note": "Boissons de bienvenue",
+    "ceremony_title": "Cérémonie",
+    "ceremony_note": "Sous l'arche",
+    "dinner_title": "Dîner",
+    "dinner_note": "La longue tablée",
+    "party_title": "Fête",
+    "party_note": "On danse jusqu'au bout de la nuit",
+    "brunch_title": "Brunch",
+    "brunch_note": "À l'hôtel · décontracté"
+  },
+
+  "dress": {
+    "eyebrow": "Tenue",
+    "title": "Dress Code",
+    "sub": "Semi-formel",
+    "women": "Femmes",
+    "women_item": "Robe de cocktail",
+    "men": "Hommes",
+    "men_item": "Costume et cravate",
+    "note": "Portez la couleur que vous aimez — un seul petit souhait : laissez le blanc à la mariée. En août à Neuchâtel il a fait chaud l'an dernier, alors pensez léger et confortable."
+  },
+
+  "venue": {
+    "eyebrow": "Où",
+    "title": "Le Lieu",
+    "directions": "Obtenir l'itinéraire",
+    "name": "Domaine du Lac",
+    "address": "Route du Vignoble 12, 2000 Neuchâtel, Suisse",
+    "photo_placeholder": "Photo du lieu"
+  },
+
+  "story": {
+    "eyebrow": "Comment tout a commencé",
+    "title": "Notre Histoire",
+    "photo_placeholder": "Une photo de vous deux",
+    "body": "Nous nous sommes rencontrés en Angleterre — l'un colombien, l'autre suisse, tous deux convaincus de ne faire que passer. Ce qui devait être un chapitre a survécu à la distance, à d'innombrables aéroports et à plus de messages vocaux que nous ne pouvons en compter. Aujourd'hui nous sommes chez nous ensemble à Neuchâtel, et nous ne pouvons imaginer nous dire 'oui' sans vous à nos côtés."
+  },
+
+  "stay": {
+    "eyebrow": "Nous vous avons réservé une chambre",
+    "title": "Votre Séjour",
+    "sub": "C'est pour nous — aucune réservation à faire",
+    "check_in_label": "Arrivée",
+    "check_out_label": "Départ",
+    "hotel_name": "Hôtel à confirmer",
+    "hotel_address": "Neuchâtel, Suisse",
+    "check_in_val": "Ven 21 août · après 15h00",
+    "check_out_val": "Sam 22 août · avant 12h00",
+    "note": "Petit-déjeuner inclus. La chambre est pour nous — présentez simplement votre pièce d'identité à la réception."
+  },
+
+  "accommodation": {
+    "eyebrow": "Où dormir",
+    "title": "Hébergement",
+    "sub": "Quelques adresses que nous aimons à proximité",
+    "view_details": "Voir les détails",
+    "hotel_placeholder": "Hôtel",
+    "hotel1_name": "Hôtel Beau-Rivage",
+    "hotel1_dist": "Au bord du lac · 5 min du lieu",
+    "hotel1_price": "dès CHF 210",
+    "hotel2_name": "Auberge du Vignoble",
+    "hotel2_dist": "Vue sur les vignes · 8 min",
+    "hotel2_price": "dès CHF 140"
+  },
+
+  "faq": {
+    "eyebrow": "Bon à savoir",
+    "title": "Questions",
+    "q_children": "Puis-je venir avec mes enfants ?",
+    "a_children": "Nous adorons vos petits bouts, mais notre fête est réservée aux adultes pour que chacun puisse se détendre et danser librement. Merci de votre compréhension.",
+    "q_transit": "Quelle est la meilleure façon d'y aller ?",
+    "a_transit": "Neuchâtel est très bien desservie par le train. Depuis la gare, c'est un court trajet en taxi ou en navette — nous organiserons des navettes depuis les principaux hôtels avant et après la cérémonie.",
+    "q_parking": "Y a-t-il un parking à proximité ?",
+    "a_parking": "Oui, un parking gratuit est disponible sur place. Si vous comptez profiter du vin, laissez la voiture et prenez une navette.",
+    "q_diet": "Et si j'ai des restrictions alimentaires ?",
+    "a_diet": "Signalez-le dans votre RSVP. La cuisine s'adapte volontiers aux besoins végétariens, végétaliens, sans gluten et aux allergies.",
+    "q_checkin": "À quelle heure puis-je faire le check-in à l'hôtel ?",
+    "a_checkin": "Dès 15h00 l'après-midi de la cérémonie. Si vous arrivez plus tôt, vous pouvez déposer vos bagages à la réception.",
+    "q_brunch_time": "À quelle heure est le brunch le lendemain ?",
+    "a_brunch_time": "10h00 à l'hôtel. Venez comme vous êtes — aucun dress code, juste l'appétit."
+  },
+
+  "rsvp": {
+    "eyebrow": "Serez-vous des nôtres",
+    "title": "R.S.V.P.",
+    "thank_you_heading": "Merci",
+    "edit": "Modifier ma réponse",
+    "reply_by": "Merci de répondre avant le 30 juin 2027",
+    "name": "Nom complet",
+    "name_ph": "Votre nom",
+    "attend": "Serez-vous présent·e ?",
+    "attend_yes": "Accepte avec joie",
+    "attend_no": "Décline avec regret",
+    "plus_one": "Venez-vous accompagné·e ?",
+    "plus_yes": "Oui, +1",
+    "plus_no": "Juste moi",
+    "guest_name": "Nom de l'accompagnant·e",
+    "guest_name_ph": "Son nom",
+    "dietary": "Une préférence alimentaire ?",
+    "diet_none": "Aucune restriction",
+    "diet_veg": "Végétarien·ne",
+    "diet_vegan": "Végan·e",
+    "allergies": "Allergies ou autres notes pour la cuisine",
+    "allergies_ph": "ex. allergie aux noix, lactose",
+    "brunch_q": "Nous rejoignez-vous pour le brunch le lendemain ?",
+    "brunch_yes": "Oui, à 10h",
+    "brunch_no": "Je ne pourrai pas",
+    "song": "Une chanson pour vous faire danser",
+    "song_ph": "Titre — Artiste",
+    "note": "Un mot pour nous",
+    "optional": "(optionnel)",
+    "note_ph": "Laissez un message aux mariés…",
+    "error": "Merci d'indiquer votre nom et de nous dire si vous pouvez venir.",
+    "send": "Envoyer notre réponse",
+    "thankyou_yes": "Nous sommes aux anges — rendez-vous sur la piste{nameComma} ! Votre réponse est enregistrée.",
+    "thankyou_no": "Vous allez nous manquer, mais merci de nous avoir prévenus. Toute notre affection.",
+    "with_love": "Avec tout notre amour",
+    "floating": "RSVP",
+    "greeting_prefix": "Cher·ère ",
+    "greeting_fallback": "Cher·ère ami·e",
+    "to_line_fallback": "À notre cher·ère invité·e"
+  },
+
+  "intro": {
+    "play_label": "Lire l'invitation",
+    "tap_begin": "Toucher pour commencer",
+    "skip": "Passer l'intro",
+    "video_here": "Votre vidéo d'intro est ici",
+    "drop_mp4": "Glissez un .mp4 pour prévisualiser"
+  },
+
+  "placeholders": {
+    "hero_portrait": "Votre portrait"
+  }
+}

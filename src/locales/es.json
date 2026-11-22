@@ -1,0 +1,170 @@
+{
+  "lang": "es",
+  "title": "Mara & Sebastián · 21.08.2027",
+
+  "nav": {
+    "en": "EN",
+    "es": "ES",
+    "fr": "FR"
+  },
+
+  "hero": {
+    "eyebrow": "Junto con sus familias",
+    "getting_married": "Nos casamos",
+    "date_day": "21 de agosto",
+    "date_year": "2027",
+    "location": "Neuchâtel · Suiza",
+    "footer_date": "21 · 08 · 2027 — Neuchâtel"
+  },
+
+  "countdown": {
+    "arrived_title": "El día ha llegado.",
+    "arrived_sub": "No podemos esperar a celebrar contigo",
+    "days": "Días",
+    "hrs": "Hrs",
+    "min": "Min",
+    "sec": "Seg"
+  },
+
+  "schedule": {
+    "eyebrow": "La celebración",
+    "title": "Programa",
+    "sub": "Lo que tenemos preparado para ti",
+    "day_one": "Día Uno",
+    "day_two": "Día Dos",
+    "aperitivo_title": "Aperitivo",
+    "aperitivo_note": "Bebidas de bienvenida",
+    "ceremony_title": "Ceremonia",
+    "ceremony_note": "Bajo el arco",
+    "dinner_title": "Cena",
+    "dinner_note": "La mesa larga",
+    "party_title": "Fiesta",
+    "party_note": "Baile hasta tarde",
+    "brunch_title": "Brunch",
+    "brunch_note": "En el hotel · informal"
+  },
+
+  "dress": {
+    "eyebrow": "Vestimenta",
+    "title": "Código de Vestir",
+    "sub": "Semi-formal",
+    "women": "Mujeres",
+    "women_item": "Vestido de cóctel",
+    "men": "Hombres",
+    "men_item": "Traje y corbata",
+    "note": "Ponte el color que más te guste — solo te pedimos que dejes el blanco para la novia. En agosto en Neuchâtel el año pasado hizo calor, así que apuesta por algo fresco y cómodo."
+  },
+
+  "venue": {
+    "eyebrow": "Dónde",
+    "title": "El Lugar",
+    "directions": "Cómo llegar",
+    "name": "Domaine du Lac",
+    "address": "Route du Vignoble 12, 2000 Neuchâtel, Suiza",
+    "photo_placeholder": "Foto del lugar"
+  },
+
+  "story": {
+    "eyebrow": "Cómo empezó",
+    "title": "Nuestra Historia",
+    "photo_placeholder": "Una foto de los dos",
+    "body": "Nos conocimos en Inglaterra — uno colombiano, la otra suiza, los dos convencidos de que solo estábamos de paso. Lo que iba a ser un capítulo sobrevivió a la distancia, a incontables aeropuertos y a más notas de voz de las que podríamos contar. Hoy ya estamos en casa juntos en Neuchâtel y no podríamos imaginar decirnos 'sí' sin ti a nuestro lado."
+  },
+
+  "stay": {
+    "eyebrow": "Te hemos reservado una habitación",
+    "title": "Tu Estancia",
+    "sub": "Invita la casa — sin reservas que hacer",
+    "check_in_label": "Entrada",
+    "check_out_label": "Salida",
+    "hotel_name": "Hotel por confirmar",
+    "hotel_address": "Neuchâtel, Suiza",
+    "check_in_val": "Vie 21 ago · desde 15:00",
+    "check_out_val": "Sáb 22 ago · antes de 12:00",
+    "note": "Desayuno incluido. La reserva corre por nuestra cuenta — solo presenta tu documento en recepción."
+  },
+
+  "accommodation": {
+    "eyebrow": "Dónde dormir",
+    "title": "Alojamiento",
+    "sub": "Algunos sitios que nos encantan cerca",
+    "view_details": "Ver detalles",
+    "hotel_placeholder": "Hotel",
+    "hotel1_name": "Hôtel Beau-Rivage",
+    "hotel1_dist": "Frente al lago · 5 min del lugar",
+    "hotel1_price": "desde CHF 210",
+    "hotel2_name": "Auberge du Vignoble",
+    "hotel2_dist": "Vistas al viñedo · 8 min",
+    "hotel2_price": "desde CHF 140"
+  },
+
+  "faq": {
+    "eyebrow": "Bueno saberlo",
+    "title": "Preguntas",
+    "q_children": "¿Puedo traer a mis hijos?",
+    "a_children": "Adoramos a los peques, pero nuestra celebración es solo para adultos para que todos puedan relajarse y bailar a gusto. Gracias por entenderlo.",
+    "q_transit": "¿Cuál es la mejor forma de llegar?",
+    "a_transit": "Neuchâtel está muy bien comunicada por tren. Desde la estación hay un corto trayecto en taxi o en lanzadera — tendremos lanzaderas desde los hoteles principales antes y después de la ceremonia.",
+    "q_parking": "¿Hay parqueadero cerca?",
+    "a_parking": "Sí, hay parqueadero gratis en el lugar. Si quieres disfrutar del vino, mejor déjalo ahí y súbete a la lanzadera.",
+    "q_diet": "¿Y si tengo restricciones alimentarias?",
+    "a_diet": "Solo cuéntanos en tu RSVP. La cocina adapta con gusto opciones vegetarianas, veganas, sin gluten y por alergias.",
+    "q_checkin": "¿A qué hora puedo hacer el check-in en el hotel?",
+    "a_checkin": "Desde las 15:00 de la tarde de la ceremonia. Si llegas antes puedes dejar el equipaje en recepción.",
+    "q_brunch_time": "¿A qué hora es el brunch al día siguiente?",
+    "a_brunch_time": "A las 10:00 en el hotel. Ven como quieras — no hay código de vestir, solo ganas de desayunar."
+  },
+
+  "rsvp": {
+    "eyebrow": "¿Nos acompañas?",
+    "title": "R.S.V.P.",
+    "thank_you_heading": "Gracias",
+    "edit": "Editar mi respuesta",
+    "reply_by": "Por favor responde antes del 30 de junio de 2027",
+    "name": "Nombre completo",
+    "name_ph": "Tu nombre",
+    "attend": "¿Vas a venir?",
+    "attend_yes": "Acepto con alegría",
+    "attend_no": "No podré, lo siento",
+    "plus_one": "¿Vienes con acompañante?",
+    "plus_yes": "Sí, +1",
+    "plus_no": "Solo yo",
+    "guest_name": "Nombre del acompañante",
+    "guest_name_ph": "Su nombre",
+    "dietary": "¿Alguna preferencia alimentaria?",
+    "diet_none": "Sin restricciones",
+    "diet_veg": "Vegetariano",
+    "diet_vegan": "Vegano",
+    "allergies": "Alergias u otras notas para la cocina",
+    "allergies_ph": "p. ej. alergia a frutos secos, lactosa",
+    "brunch_q": "¿Te unes al brunch del día siguiente?",
+    "brunch_yes": "Sí, nos vemos a las 10",
+    "brunch_no": "No podré",
+    "song": "Una canción para bailar",
+    "song_ph": "Canción — Artista",
+    "note": "Un mensaje para nosotros",
+    "optional": "(opcional)",
+    "note_ph": "Deja un mensaje a los novios…",
+    "error": "Por favor, añade tu nombre y cuéntanos si puedes venir.",
+    "send": "Enviar nuestra respuesta",
+    "thankyou_yes": "¡Qué alegría — nos vemos en la pista{nameComma}! Tu respuesta queda guardada.",
+    "thankyou_no": "Te vamos a echar mucho de menos, pero gracias por avisarnos. Un abrazo con todo el cariño.",
+    "with_love": "Con todo nuestro amor",
+    "floating": "RSVP",
+    "greeting_prefix": "Querido/a ",
+    "greeting_fallback": "Querido/a amigo/a",
+    "to_line_fallback": "A nuestro querido invitado"
+  },
+
+  "intro": {
+    "play_label": "Reproducir la invitación",
+    "tap_begin": "Toca para comenzar",
+    "skip": "Saltar intro",
+    "video_here": "Aquí va tu vídeo de intro",
+    "drop_mp4": "Arrastra un .mp4 para previsualizar"
+  },
+
+  "placeholders": {
+    "hero_portrait": "Tu retrato"
+  }
+}

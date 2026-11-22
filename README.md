@@ -1,10 +1,12 @@
 # Mara & Sebas — 21 August 2027
 
-Three bundled wedding invitations, one per invite tier. Deployed to Vercel from this repo.
+Three bundled wedding invitations × three languages (EN · ES · FR) = nine standalone pages, all deployed to Vercel from this repo.
 
 ## Live URLs
 
-Append `?guest=Name` to personalize. Append `&plus=1` to enable the plus-one question.
+Append `?guest=Name` to personalize. Append `&plus=1` to enable the plus-one question. The query string is preserved when guests switch languages via the EN · ES · FR pills in the top-right of each page.
+
+**English (default)** — existing invitation links stay valid; nobody needs a new URL:
 
 | Tier | URL path | Who it's for |
 |---|---|---|
@@ -12,28 +14,75 @@ Append `?guest=Name` to personalize. Append `&plus=1` to enable the plus-one que
 | 2 — Wedding | `/5p8nngv0iuof/` | Ceremony + dinner + party |
 | 3 — Wedding + stay | `/u22bagintj4n/` | Everything + 1 night hotel + brunch |
 
-Each URL serves a standalone bundle. Content from the other tiers is **stripped at build time** — not CSS-hidden — so a tier-1 guest viewing source cannot see tier-3 content.
+**Spanish** — add `/es/`:
+
+| Tier | URL path |
+|---|---|
+| 1 | `/3uj45y3uwwge/es/` |
+| 2 | `/5p8nngv0iuof/es/` |
+| 3 | `/u22bagintj4n/es/` |
+
+**French** — add `/fr/`:
+
+| Tier | URL path |
+|---|---|
+| 1 | `/3uj45y3uwwge/fr/` |
+| 2 | `/5p8nngv0iuof/fr/` |
+| 3 | `/u22bagintj4n/fr/` |
+
+Each URL serves a standalone bundle. Content from the other tiers is **stripped at build time** — not CSS-hidden — so a tier-1 guest viewing source cannot see tier-3 content. The language dictionaries ship complete inside each bundle, so sending a guest any locale URL works as the starting point.
 
 Example invitation links:
 ```
 https://<vercel-domain>/5p8nngv0iuof/?guest=Alex
-https://<vercel-domain>/5p8nngv0iuof/?guest=Alex&plus=1
-https://<vercel-domain>/u22bagintj4n/?guest=Jordan&plus=1
+https://<vercel-domain>/5p8nngv0iuof/es/?guest=Alex&plus=1
+https://<vercel-domain>/u22bagintj4n/fr/?guest=Jordan&plus=1
 ```
 
 ## Layout
 
 ```
 .
-├── index.html                  (legacy; delete after guests move to new links)
-├── 3uj45y3uwwge/index.html     tier 1 bundle (aperitivo)
-├── 5p8nngv0iuof/index.html     tier 2 bundle (wedding)
-├── u22bagintj4n/index.html     tier 3 bundle (wedding + stay)
-└── src/                        (not served — see .vercelignore)
-    ├── template.html           master tier-aware source
-    ├── build.py                wraps template into the bundler shell
-    └── apps-script.gs          RSVP endpoint for Google Apps Script
+├── index.html                      (legacy; delete after guests move to new links)
+├── 3uj45y3uwwge/index.html         tier 1 bundle, English (canonical)
+├── 3uj45y3uwwge/es/index.html      tier 1 bundle, Spanish
+├── 3uj45y3uwwge/fr/index.html      tier 1 bundle, French
+├── 5p8nngv0iuof/… (same pattern)   tier 2 bundles
+├── u22bagintj4n/… (same pattern)   tier 3 bundles
+└── src/                            (not served — see .vercelignore)
+    ├── template.html               master tier-aware + i18n-tokenized source
+    ├── build.py                    tier × locale builder
+    ├── apps-script.gs              RSVP endpoint for Google Apps Script
+    └── locales/
+        ├── en.json                 canonical English strings
+        ├── es.json                 Spanish translations
+        └── fr.json                 French translations
 ```
+
+## Rebuild
+
+After editing `src/template.html` or any `src/locales/*.json`, rebuild **all 9 bundles** in one shot:
+
+```sh
+python3 src/build.py all
+```
+
+…or a single bundle:
+
+```sh
+python3 src/build.py 2 5p8nngv0iuof/es/ es
+```
+
+Commit the changed `*/index.html` files; Vercel auto-deploys on push.
+
+## Editing copy
+
+1. **Pure wording tweak** (e.g. change the thank-you line) — edit all three `src/locales/*.json` files under the same key, then rebuild.
+2. **Structural change** (add a new field or section) — edit `src/template.html`, add `__T_NEW_KEY__` placeholders where strings appear, add the matching entry to `T_TOKENS` at the top of `src/build.py`, add the string to all three `locales/*.json` files, then rebuild.
+
+## Editing hotel details (tier 3)
+
+In `src/locales/*.json`, the `stay` block holds the hotel name, address, check-in/out times, and the note. Edit in all three locale files, then rebuild (`python3 src/build.py all`).
 
 ## RSVP endpoint — one-time setup (~2 minutes)
 
@@ -50,35 +99,11 @@ https://<vercel-domain>/u22bagintj4n/?guest=Jordan&plus=1
    const ENDPOINT_URL = 'REPLACE_WITH_APPS_SCRIPT_URL';
    ```
    with your copied URL.
-7. Rebuild all three tiers (see "Rebuild" below) and commit + push.
+7. Rebuild all bundles (`python3 src/build.py all`) and commit + push.
 
-Each submission appends a row to the sheet **and** emails you a formatted summary. The email is a safety net in case anything goes wrong with the sheet.
+Each submission appends a row to the sheet **and** emails you a formatted summary. The email is a safety net in case anything goes wrong with the sheet. The payload includes `tier` and `locale` so you can see which page the guest replied from.
 
-## Rebuild
-
-After editing `src/template.html` (hotel name, copy tweaks, endpoint URL, etc.):
-
-```sh
-python3 src/build.py 1 3uj45y3uwwge/
-python3 src/build.py 2 5p8nngv0iuof/
-python3 src/build.py 3 u22bagintj4n/
-```
-
-Commit the changed `*/index.html` files; Vercel auto-deploys on push.
-
-## Editing hotel details (tier 3)
-
-In `src/template.html`, search for `tier 3 only — edit these when hotel is confirmed`. You'll find:
-
-```js
-const hotelName    = 'Hôtel to be confirmed';
-const hotelAddress = 'Neuchâtel, Switzerland';
-const checkIn      = 'Fri 21 Aug · after 15:00';
-const checkOut     = 'Sat 22 Aug · before 12:00';
-const stayNote     = 'Breakfast included. The booking is on us — just show your ID at reception.';
-```
-
-Edit, then rebuild tier 3 only (second-last line in the Rebuild section).
+> **Migrating an existing RSVP sheet.** The new `apps-script.gs` inserts a `locale` column at position 3. If you already have rows written with the old column layout, either (a) manually insert a blank `locale` column in column C of the existing `RSVPs` sheet before re-deploying the script, or (b) rename the current `RSVPs` tab to e.g. `RSVPs_v1` and let the script create a fresh tab with the new header.
 
 ## Repo visibility
 
